@@ -9,7 +9,7 @@ ADD https://downloads.wordpress.org/plugin/easy-digital-downloads.latest-stable.
 RUN cd /dist && unzip easy-digital-downloads.latest-stable.zip && rm easy-digital-downloads.latest-stable.zip
 
 
-FROM wordpress:php7.2
+FROM wordpress:php8.3
 
 WORKDIR /var/www/html/
 
